@@ -1,0 +1,28 @@
+{
+  "name": "sails-scale",
+  "description": "Scaling SailsJS with PM2 and Redis",
+  "version": "0.0.1",
+  "keywords": [
+    "sailsjs",
+    "redis",
+    "pm2"
+  ],
+  "contributors": [
+    {
+      "name": "Zach Wolfe",
+      "web": "http://github.com/zdwolfe"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/zdwolfe/sails-scale.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "http://zdwolfe.mit-license.org/"
+    }
+  ]
+}
