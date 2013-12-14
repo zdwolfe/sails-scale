@@ -1,9 +1,45 @@
-build/
-reports/
+########################
+# sails
+########################
+.sails
+.waterline
+.rigging
+.tmp
 
-# Node.js
-node_modules/
+
+########################
+# node.js / npm
+########################
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+node_modules
+
 npm-debug.log
 
-# Mac OS X
-.DS_Store
+
+########################
+# misc / editors
+########################
+*~
+*#
+.DS_STORE
+.netbeans
+nbproject
+.idea
+
+
+########################
+# local config
+########################
+config/local.js
