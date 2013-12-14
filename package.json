@@ -37,7 +37,6 @@
     "sails-disk": "~0.9.0",
     "ejs": "0.8.4",
     "optimist": "0.3.4",
-    "sails-mongo": "~0.9.6",
-    "bcrypt-nodejs": "0.0.3"
+    "sails-mongo": "~0.9.6"
   }
 }
