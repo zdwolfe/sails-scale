@@ -28,7 +28,10 @@
   "main": "app.js",
   "scripts": {
     "start": "pm2 start processes.json",
-    "debug": "node debug app.js"
+    "stop": "pm2 stop sails-scale",
+    "kill": "pm2 kill",
+    "debug": "node debug app.js",
+    "dev": "node app.js"
   },
   "dependencies": {
     "sails": "0.9.7",
@@ -36,5 +39,5 @@
     "sails-disk": "~0.9.0",
     "ejs": "0.8.4",
     "optimist": "0.3.4"
-  k
+  }
 }
