@@ -29,7 +29,8 @@
     "stop": "pm2 stop sails-scale",
     "kill": "pm2 kill",
     "debug": "node debug app.js",
-    "dev": "node app.js"
+    "dev": "node app.js",
+    "siege": "SIEGERC=./siegerc siege"
   },
   "dependencies": {
     "sails": "0.9.7",

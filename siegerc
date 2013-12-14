@@ -1,0 +1,9 @@
+trueurl = true
+show-logfile = false
+logging = true
+logfile = ${PWD}/siege.log
+cache = false
+spinner = false
+
+concurrent = 250
+url = http://localhost:1337/user/stats
