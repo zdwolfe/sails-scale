@@ -1,0 +1,9 @@
+{
+  "error_file": "./sails-scale.err.log",
+  "exec_mode": "cluster_mode",
+  "instances": "max",
+  "min_uptime": "100",
+  "name": "sails-scale",
+  "out_file": "./sails-scale.out.log",
+  "script": "./app.js"
+}
