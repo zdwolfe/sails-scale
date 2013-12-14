@@ -1,2 +1,2 @@
 # sails-scale
-### a Sails application
+![sails](http://i.imgur.com/FdqBRca.png)
