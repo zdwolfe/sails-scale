@@ -33,14 +33,12 @@ module.exports = {
   },
 
   stats: function(req, res) {
+    console.log('hey');
     return res.json({
       user: req.session.user,
       pid: process.pid
     });
   },
-    
-  
-
 
   /**
    * Overrides for the settings in `config/controllers.js`
