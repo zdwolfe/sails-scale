@@ -48,3 +48,4 @@ config/local.js
 # mongodb
 ########################
 mongodb
+.elasticbeanstalk/
