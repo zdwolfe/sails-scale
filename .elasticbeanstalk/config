@@ -1,0 +1,30 @@
+[global]
+ApplicationName=sails-scale
+AwsCredentialFile=/home/zdwolfe/.elasticbeanstalk/aws_credential_file
+DevToolsEndpoint=git.elasticbeanstalk.us-east-1.amazonaws.com
+EnvironmentName=sails-scale-env
+EnvironmentTier=WebServer::Standard::1.0
+EnvironmentType=LoadBalanced
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=/home/zdwolfe/src/sails-scale/.elasticbeanstalk/optionsettings.sails-scale-env
+RdsDeletionPolicy=Snapshot
+RdsEnabled=Yes
+RdsSourceSnapshotName=
+Region=us-east-1
+ServiceEndpoint=https://elasticbeanstalk.us-east-1.amazonaws.com
+SolutionStack=64bit Amazon Linux 2013.09 running Node.js
+
+[branches]
+live=sails-scale-live-env
+
+[branch:live]
+ApplicationVersionName=Sample Application
+EnvironmentName=sails-scale-live-env
+EnvironmentTier=WebServer::Standard::1.0
+EnvironmentType=LoadBalanced
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=/home/zdwolfe/src/sails-scale/.elasticbeanstalk/optionsettings.sails-scale-live-env
+RdsDeletionPolicy=Snapshot
+RdsEnabled=Yes
+RdsSourceSnapshotName=
+

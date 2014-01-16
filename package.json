@@ -39,5 +39,9 @@
     "ejs": "0.8.4",
     "optimist": "0.3.4",
     "sails-mongo": "~0.9.6"
+  },
+  "devDependencies": {
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-connect-proxy": "~0.1.6"
   }
 }
