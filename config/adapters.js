@@ -13,9 +13,14 @@
  */
 
 module.exports.adapters = {
-  'default': 'mongo',
-  mongo: {
-    module: 'sails-mongo',
-    host: 'localhost'
+  'default': 'postgres',
+  postgres: {
+    module: 'sails-postgresql',
+    host: process.env.POSTGRES_HOST,
+    port: process.env.POSTGRES_PORT,
+    user: process.env.POSTGRES_USER,
+    password: process.env.POSTGRES_PASSWORD || '',
+    database: process.env.POSTGRES_DATABASE,
+    schema: true
   }
 };
