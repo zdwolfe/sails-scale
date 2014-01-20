@@ -41,4 +41,5 @@
     "grunt-contrib-connect": "~0.5.0",
     "grunt-connect-proxy": "~0.1.6"
   }
+
 }
