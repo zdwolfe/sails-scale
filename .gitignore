@@ -44,8 +44,5 @@ nbproject
 ########################
 config/local.js
 
-########################
-# mongodb
-########################
-mongodb
 .elasticbeanstalk/
+.pem
